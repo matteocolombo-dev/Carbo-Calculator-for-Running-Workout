@@ -1,0 +1,91 @@
+:root {
+    --main-bg: #780116;
+    --btn: #F7B538;
+    --text: #fff;
+    --secondary-bg: #DB7C26;
+    /*I colori seguenti non sono usati */
+    --flame: #D8572A;
+    --fire-engine-red: #C32F27;
+
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+div, h1, label {
+    border: 1px solid black;
+}
+
+div {
+    
+    width: 100%;
+    margin: 0 auto;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--secondary-bg);
+}
+
+main {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    margin: 50px auto 0;
+    width: 500px;
+    height: 600px;
+    background-color: var(--main-bg);
+    color: var(--text);
+    border-radius: 10px;
+}
+
+form {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+#result-message {
+    height: 20%;
+    width: 100%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+
+label {
+    width: 100%;
+    margin: 0 auto;
+
+    
+}
+
+button {
+    cursor: pointer;
+    background-color: var(--btn);
+    padding: 10px;
+ 
+}
+
+
+
