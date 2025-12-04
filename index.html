@@ -13,27 +13,28 @@
             <div class="strategy">
                 <h2>Carb Strategy</h2>
                 <div>
-                    <label for="carb-per-hour-">Carbs per hour</label>
-                    <input id="carb-per-hour-" type="number"  placeholder="Enter Carbs per hour" required>
+                    <label for="carb-per-hour">Strategy: </label>
+                    <input id="carb-per-hour" type="number"  placeholder="Enter Carbs per hour" required name="carb-per-hour" step="any">
                 </div>
 
             </div>
             <div class="carbs-input">
                 <h2>Input Food</h2>
                 <div>
-                    <label for="carb-per-foods-">Number of Carbs per food</label>
-                    <input id="carb-per-foods-" type="number" placeholder="Enter Carbs per foods (gel, bars etc)" required>
+                    <label for="carb-per-foods">Number of Carbs per food:* </label>
+                    <input id="carb-per-foods" type="number" placeholder="Enter Carbs per foods" required name="carb-per-foods" step="any">
                 </div>
+                <p class="note">* The number of carbohydrates per 100 grams of gels, bars or other carb foods.</p>
             </div>
-            <div>
+            <div class="input-workout">
                 <h2>Input Workout</h2>
                 <div>
-                    <label for="workout-km">Number of Km in Workout</label>
-                    <input type="number" id="workout-km" placeholder="Enter your km in workout">
+                    <label for="workout-km">Number of Km in Workout: </label>
+                    <input type="number" id="workout-km" placeholder="Enter your km in workout" required name="workout-km" step="any">
                 </div>
                 <div>
-                    <label for="pace">Pace (min/km)</label>
-                    <input type="number" id="pace" placeholder="Enter your pace in min/km">
+                    <label for="pace">Pace (min/km): </label>
+                    <input type="number" id="pace" placeholder="Enter your pace in min/km" required name="pace" step="any">
                 </div>         
             </div>
             <button id="calculate-btn" type="submit">Calculate</button>
