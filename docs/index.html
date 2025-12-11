@@ -30,12 +30,18 @@
                 <h2>Input Workout</h2>
                 <div>
                     <label for="workout-km">Number of Km in Workout: </label>
-                    <input type="number" id="workout-km" placeholder="Enter your km in workout" required name="workout-km" step="any">
+                    <input type="number" id="workout-km" placeholder="Enter your km" required name="workout-km" step="any">
                 </div>
-                <div>
-                    <label for="pace">Pace (min/km): </label>
-                    <input type="number" id="pace" placeholder="Enter your pace in min/km" required name="pace" step="any">
-                </div>         
+                <fieldset>
+                    <legend>Pace</legend>
+                    <label for="pace-min">Min:
+                        <input type="number" id="pace-min" placeholder="Enter min" required name="pace-min">
+                    </label>
+                    <label for="pace-sec">Sec:
+                        <input type="number" id="pace-sec" placeholder="Enter sec" required name="pace-sec">
+                    </label>
+                    
+                </fieldset>         
             </div>
             <button id="calculate-btn" type="submit">Calculate</button>
         </form>

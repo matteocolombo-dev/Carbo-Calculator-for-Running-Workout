@@ -41,6 +41,7 @@ main {
     color: var(--text);
     border-radius: 10px;
     padding: 30px 15px;
+    margin: 10px;
 }
 
 form {
@@ -65,6 +66,24 @@ form > div {
 
 .input-workout div:first-of-type {
     margin-bottom: 10px;
+}
+
+.input-workout fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+fieldset  input {
+    width: 45%
+}
+
+fieldset legend {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 h2 {
@@ -148,7 +167,10 @@ button:focus {
 
 #result {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 
-
+@media screen and (max-width: 768px) {
+  
+}
