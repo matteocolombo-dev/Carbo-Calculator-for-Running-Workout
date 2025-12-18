@@ -1,6 +1,7 @@
 # Carbo-Calculator for Running Workout
 
-Project to calculate the necessary carbohydrates to consume and how often to consume them.
+Project to calculate the necessary carbohydrates to consume and how often to consume them. 
+The project is still under development.
 
 ## 📖Description
 
